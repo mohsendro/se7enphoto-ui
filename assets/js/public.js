@@ -13,47 +13,6 @@ function overflowHidden() {
     }
 }
 
-// Menu Scrool Down Coloe Change Scripts
-window.onload = function () {
-
-    window.onscroll = function () {
-        scrollFunction();
-        // console.log(document.body.scrollTop);
-        // console.log(document.documentElement.scrollTop);
-    };
-
-    function scrollFunction() {
-        if (window.matchMedia('screen and (min-width: 992px)').matches) {
-
-            if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-
-                let bigLogo = document.getElementsByClassName("big-logo")[0];
-                let headerLogo = document.getElementsByClassName("header-logo")[0];
-                let headerNav = document.getElementsByClassName("wsmenu")[0];
-                bigLogo.style.cssText = "display: none;";
-                headerLogo.style.cssText = "width: 133px;";
-                headerNav.style.cssText = "margin-right: 133px;";
-
-            } else {
-
-                let bigLogo = document.getElementsByClassName("big-logo")[0];
-                let headerLogo = document.getElementsByClassName("header-logo")[0];
-                let headerNav = document.getElementsByClassName("wsmenu")[0];
-                bigLogo.style.cssText = "display: block;";
-                headerLogo.style.cssText = "width: 0px;";
-                headerNav.style.cssText = "margin-right: 0;";
-
-            }
-
-        } else {
-
-            let headerNav = document.getElementsByClassName("wsmenu")[0];
-            headerNav.style.cssText = "margin-right: 0;";
-        }
-    }
-
-}
-
 // Swiper Scripts
 var sliderSwiper = new Swiper(".sliderSwiper", {
 
