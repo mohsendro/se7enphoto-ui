@@ -306,13 +306,6 @@ body {
     overflow-x: hidden;
 }
 
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl,
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl,
-.row, .row>* {
-    padding-left: 0!important;
-    padding-right: 0!important;
-}
-
 .none-overflow {
     overflow-y: hidden;
 }
@@ -346,6 +339,10 @@ a:hover {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+}
+
+.position-relative {
+    position: relative;
 }
 
 /************* Inedx *************/
