@@ -1,5 +1,5 @@
 /* Header */
-.header {
+/* .header {
     position: sticky;
     top: 0;
     display: flex;
@@ -25,7 +25,7 @@
 
 .mobile-container {
     position: relative;
-}
+} */
 
 .header .logo {
     width: 100%;
@@ -45,7 +45,7 @@
     height: auto;
 }
 
-.wsmenu {
+/* .wsmenu {
     position: relative;
     width: auto;
     font-family: 'YekanBakh';
@@ -61,7 +61,7 @@
     border-radius: 4px 4px 0px 0px;
     padding: 0px;
     margin-right: 0;
-}
+} */
 
 .wsmenu-list {
     text-align: right;
@@ -254,6 +254,12 @@
 }
 
 .footer .column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
     gap: 10px;
 }
 
@@ -276,19 +282,39 @@
 
 .footer .copyright {
     font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
     color: #ffffff;
 }
 
 
 /* Responsive footer */
-@media (max-width: 575.98px) {} /* container max-width: 551px; */
+@media (max-width: 575.98px) {
+    .footer .column {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
 
-@media (min-width: 576px) and (max-width: 767.98px) {} /* container max-width: 540px; */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .footer .column {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) {} /* container max-width: 720px; */
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {} /* container max-width: 960px; */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {} /* container max-width: 1140px; */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
 
-@media (min-width: 1400px) {} /* container max-width: 1320px; */
+@media (min-width: 1400px) {}

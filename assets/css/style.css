@@ -332,6 +332,13 @@ section .row-fluid {
     margin: 0 auto;
 }
 
+.container-fluid,
+.row,
+.row>* {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 a,
 a:hover {
     -webkit-transition: all 0.3s ease-in-out;
