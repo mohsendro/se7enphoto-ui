@@ -56,103 +56,103 @@ button:focus:not(:focus-visible) {
 
 /* Register Font Family */
 @font-face {
-    font-family: 'YekanBakh';
-    src: url('../font/yekan-bakh/eot/YekanBakh-Regular.eot');
+    font-family: 'IranSans';
+    src: url('../font/iransans/eot/IRANSansWeb_UltraLight.eot');
     /* IE9 Compat Modes */
-    src: url('../font/yekan-bakh/eot/YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../font/iransans/eot/IRANSansWeb_UltraLight.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../font/yekan-bakh/woff2/YekanBakh-Regular.woff2') format('woff2'),
+        url('../font/iransans/woff2/IRANSansWeb_UltraLight.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../font/yekan-bakh/woff/YekanBakh-Regular.woff') format('woff'),
+        url('../font/iransans/woff/IRANSansWeb_UltraLight.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('../font/yekan-bakh/ttf/YekanBakh-Regular.ttf') format('truetype'),
+        url('../font/iransans/ttf/IRANSansWeb_UltraLight.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../font/yekan-bakh/svg/YekanBakh-Regular.svg#svgFontName') format('svg');
+        url('../font/iransans/svg/IRANSansWeb_UltraLight.svg#svgFontName') format('svg');
     /* Legacy iOS */
-    font-weight: 200;
+    font-weight: 100;
 }
 
 @font-face {
-    font-family: 'YekanBakh';
-    src: url('../font/yekan-bakh/eot/YekanBakh-Regular.eot');
+    font-family: 'IranSans';
+    src: url('../font/iransans/eot/IRANSansWeb_Light.eot');
     /* IE9 Compat Modes */
-    src: url('../font/yekan-bakh/eot/YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../font/iransans/eot/IRANSansWeb_Light.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../font/yekan-bakh/woff2/YekanBakh-Regular.woff2') format('woff2'),
+        url('../font/iransans/woff2/IRANSansWeb_Light.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../font/yekan-bakh/woff/YekanBakh-Regular.woff') format('woff'),
+        url('../font/iransans/woff/IRANSansWeb_Light.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('../font/yekan-bakh/ttf/YekanBakh-Regular.ttf') format('truetype'),
+        url('../font/iransans/ttf/IRANSansWeb_Light.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../font/yekan-bakh/svg/YekanBakh-Regular.svg#svgFontName') format('svg');
+        url('../font/iransans/svg/IRANSansWeb_Light.svg#svgFontName') format('svg');
     /*Legacy iOS */
     font-weight: 300;
 }
 
 @font-face {
-    font-family: 'YekanBakh';
-    src: url('../font/yekan-bakh/eot/YekanBakh-Regular.eot');
+    font-family: 'IranSans';
+    src: url('../font/iransans/eot/IRANSansWeb.eot');
     /* IE9 Compat Modes */
-    src: url('../font/yekan-bakh/eot/YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../font/iransans/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../font/yekan-bakh/woff2/YekanBakh-Regular.woff2') format('woff2'),
+        url('../font/iransans/woff2/IRANSansWeb.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../font/yekan-bakh/woff/YekanBakh-Regular.woff') format('woff'),
+        url('../font/iransans/woff/IRANSansWeb.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('../font/yekan-bakh/ttf/YekanBakh-Regular.ttf') format('truetype'),
+        url('../font/iransans/ttf/IRANSansWeb.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../font/yekan-bakh/svg/YekanBakh-Regular.svg#svgFontName') format('svg');
+        url('../font/iransans/svg/IRANSansWeb.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 400;
 }
 
 @font-face {
-    font-family: 'YekanBakh';
-    src: url('../font/yekan-bakh/eot/YekanBakh-Regular.eot');
+    font-family: 'IranSans';
+    src: url('../font/iransans/eot/IRANSansWeb_Medium.eot');
     /* IE9 Compat Modes */
-    src: url('../font/yekan-bakh/eot/YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../font/iransans/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../font/yekan-bakh/woff2/YekanBakh-Regular.woff2') format('woff2'),
+        url('../font/iransans/woff2/IRANSansWeb_Medium.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../font/yekan-bakh/woff/YekanBakh-Regular.woff') format('woff'),
+        url('../font/iransans/woff/IRANSansWeb_Medium.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('../font/yekan-bakh/ttf/YekanBakh-Regular.ttf') format('truetype'),
+        url('../font/iransans/ttf/IRANSansWeb_Medium.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../font/yekan-bakh/svg/YekanBakh-Regular.svg#svgFontName') format('svg');
+        url('../font/iransans/svg/IRANSansWeb_Medium.svg#svgFontName') format('svg');
     /*Legacy iOS */
     font-weight: 500;
 }
 
 @font-face {
-    font-family: 'YekanBakh';
-    src: url('../font/yekan-bakh/eot/YekanBakh-Bold.eot');
+    font-family: 'IranSans';
+    src: url('../font/iransans/eot/IRANSansWeb_Bold.eot');
     /* IE9 Compat Modes */
-    src: url('../font/yekan-bakh/eot/YekanBakh-Bold.eot?#iefix') format('embedded-opentype'),
+    src: url('../font/iransans/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../font/yekan-bakh/woff2/YekanBakh-Bold.woff2') format('woff2'),
+        url('../font/iransans/woff2/IRANSansWeb_Bold.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../font/yekan-bakh/woff/YekanBakh-Bold.woff') format('woff'),
+        url('../font/iransans/woff/IRANSansWeb_Bold.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('../font/yekan-bakh/ttf/YekanBakh-Bold.ttf') format('truetype'),
+        url('../font/iransans/ttf/IRANSansWeb_Bold.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../font/yekan-bakh/svg/YekanBakh-Bold.svg#svgFontName') format('svg');
+        url('../font/iransans/svg/IRANSansWeb_Bold.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 700;
 }
 
 @font-face {
-    font-family: 'YekanBakh';
-    src: url('../font/yekan-bakh/eot/YekanBakh-Bold.eot');
+    font-family: 'IranSans';
+    src: url('../font/iransans/eot/IRANSansWeb_Black.eot');
     /* IE9 Compat Modes */
-    src: url('../font/yekan-bakh/eot/YekanBakh-Bold.eot?#iefix') format('embedded-opentype'),
+    src: url('../font/iransans/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
-        url('../font/yekan-bakh/woff2/YekanBakh-Bold.woff2') format('woff2'),
+        url('../font/iransans/woff2/IRANSansWeb_Black.woff2') format('woff2'),
         /* Super Modern Browsers */
-        url('../font/yekan-bakh/woff/YekanBakh-Bold.woff') format('woff'),
+        url('../font/iransans/woff/IRANSansWeb_Black.woff') format('woff'),
         /* Pretty Modern Browsers */
-        url('../font/yekan-bakh/ttf/YekanBakh-Bold.ttf') format('truetype'),
+        url('../font/iransans/ttf/IRANSansWeb_Black.ttf') format('truetype'),
         /* Safari, Android, iOS */
-        url('../font/yekan-bakh/svg/YekanBakh-Bold.svg#svgFontName') format('svg');
+        url('../font/iransans/svg/IRANSansWeb_Black.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 900;
 }
@@ -171,24 +171,7 @@ button:focus:not(:focus-visible) {
         /* Safari, Android, iOS */
         url('../font/Kalameh/svg/KalamehWeb_thin.svg#svgFontName') format('svg');
     /* Legacy iOS */
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: 'Kalameh';
-    src: url('../font/Kalameh/eot/KalamehWeb_thin.eot');
-    /* IE9 Compat Modes */
-    src: url('../font/Kalameh/eot/KalamehWeb_thin.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../font/Kalameh/woff2/KalamehWeb_thin.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../font/Kalameh/woff/KalamehWeb_thin.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('../font/Kalameh/ttf/KalamehWeb_thin.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../font/Kalameh/svg/KalamehWeb_thin.svg#svgFontName') format('svg');
-    /*Legacy iOS */
-    font-weight: 300;
+    font-weight: 100;
 }
 
 @font-face {
@@ -206,23 +189,6 @@ button:focus:not(:focus-visible) {
         url('../font/Kalameh/svg/KalamehWeb_Regular.svg#svgFontName') format('svg');
     /* Legacy iOS */
     font-weight: 400;
-}
-
-@font-face {
-    font-family: 'Kalameh';
-    src: url('../font/Kalameh/eot/KalamehWeb_Regular.eot');
-    /* IE9 Compat Modes */
-    src: url('../font/Kalameh/eot/KalamehWeb_Regular.eot?#iefix') format('embedded-opentype'),
-        /* IE6-IE8 */
-        url('../font/Kalameh/woff2/KalamehWeb_Regular.woff2') format('woff2'),
-        /* Super Modern Browsers */
-        url('../font/Kalameh/woff/KalamehWeb_Regular.woff') format('woff'),
-        /* Pretty Modern Browsers */
-        url('../font/Kalameh/ttf/KalamehWeb_Regular.ttf') format('truetype'),
-        /* Safari, Android, iOS */
-        url('../font/Kalameh/svg/KalamehWeb_Regular.svg#svgFontName') format('svg');
-    /*Legacy iOS */
-    font-weight: 500;
 }
 
 @font-face {
@@ -292,14 +258,14 @@ button:focus:not(:focus-visible) {
 }
 
 html {
-    font-family: "YekanBakh";
+    font-family: 'IranSans';
     font-size: 16px;
     font-weight: 400;
 }
 
 body {
     background-color: #FFFFFF;
-    font-family: "YekanBakh";
+    font-family: 'IranSans';
     font-size: 16px;
     font-weight: 400;
     color: var(--title-color, #000000);
@@ -307,12 +273,12 @@ body {
 }
 
 .none-overflow {
-    overflow-y: hidden;
+    overflow-y: hidden!important;
 }
 
 .overflow {
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-y: scroll!important;
+    overflow-x: hidden!important;
 }
 
 /* Main && Header && Footer */

@@ -1,5 +1,5 @@
 /* Header */
-/* .header {
+#header {
     position: sticky;
     top: 0;
     display: flex;
@@ -8,8 +8,9 @@
     align-content: center;
     justify-content: center;
     align-items: stretch;
-    min-height: 75px;
-    background: rgba(0, 0, 0, 0.5);
+    min-height: 55px;
+    background-color: #fff;
+    border-bottom: 1px solid #e6eaea;
     z-index: 999;
 }
 
@@ -19,25 +20,39 @@
     margin: 0 auto;
 }
 
-.desktop-container {
+.offheader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 55px;
     position: relative;
+    padding: 0;
+    background-color: transparent;
+    border-bottom-color: transparent;
 }
 
-.mobile-container {
+.animated-arrow {
     position: relative;
-} */
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.opener-arrow {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
 .header .logo {
     width: 100%;
     max-width: 60px;
     height: auto;
-    z-index: 1;
-    -webkit-transition: All 300ms ease-in-out;
-    -moz-transition: All 300ms ease-in-out;
-    -ms-transition: All 300ms ease-in-out;
-    -o-transition: All 300ms ease-in-out;
-    transition: All 300ms ease-in-out;
-    margin-left: 15px;
 }
 
 .header .logo img {
@@ -45,69 +60,30 @@
     height: auto;
 }
 
-/* .wsmenu {
-    position: relative;
-    width: auto;
-    font-family: 'YekanBakh';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 25px;
-    text-align: right;
-    color: #FFFFFF;
-    background-color: transparent;
-    -webkit-border-radius: 4px 4px 0px 0px;
-    -moz-border-radius: 4px 4px 0px 0px;
-    border-radius: 4px 4px 0px 0px;
-    padding: 0px;
-    margin-right: 0;
-} */
+.animated-arrow span:before {
+    content: " ";
+}
+
+.wsoffcanvasopener .wsmenu {
+    overflow-y: auto;
+    left: auto;
+    right: 0;
+}
+
+.wsmenu {
+    right: -240px;
+    left: auto;
+}
 
 .wsmenu-list {
     text-align: right;
 }
 
-.wsmenu-list>li {
-    position: relative;
-    text-align: right;
-    margin-left: 10px;
-}
-
-.wsmenu-list>li:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0%;
-    height: 1.5px;
-    background-color: #FFF;
-    border-radius: 5px;
-    -webkit-transition: width 500ms ease-in-out;
-    -moz-transition: width 500ms ease-in-out;
-    -ms-transition: width 500ms ease-in-out;
-    -o-transition: width 500ms ease-in-out;
-    transition: width 500ms ease-in-out;
-}
-
-.wsmenu-list>li:hover:after {
-    width: 100%;
-}
+.wsmenu-list>li {}
 
 .wsmenu-list>li>a {
-    position: relative;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-    color: #FFFFFF;
-    background: transparent;
-    border-right: none;
-    padding: 7px;
-}
-
-.wsmenu-list li:hover>a {
-    background-color: transparent !important;
+    padding: 9px 17px 9px 32px!important;
+    text-align: right!important;
 }
 
 .wsmenu-submenu {
@@ -128,13 +104,15 @@
     text-align: inherit;
 }
 
-.wsmenu-submenu li a {
+.wsmenu-submenu li a, .mobile-sub .wsmenu-submenu li a {
     font-family: inherit;
     font-style: inherit;
     font-weight: inherit;
     font-size: inherit;
     line-height: inherit;
     text-align: inherit;
+    background-color: #ffffff!important;
+    padding: 9px 17px 9px 32px!important;
 }
 
 .wsmenu-submenu-sub {
@@ -155,13 +133,50 @@
     text-align: inherit;
 }
 
-.wsmenu-submenu-sub li a {
+.wsmenu-submenu-sub li a, .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li a {
     font-family: inherit;
     font-style: inherit;
     font-weight: inherit;
     font-size: inherit;
     line-height: inherit;
     text-align: inherit;
+    background-color: #ffffff!important;
+    padding: 9px 17px 9px 32px!important;
+}
+
+.wsmenu-submenu-sub-sub {
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+
+.wsmenu-submenu-sub-sub li {
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: inherit;
+}
+
+.wsmenu-submenu-sub-sub li a, .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li .wsmenu-submenu-sub-sub li a {
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    background-color: #ffffff!important;
+    padding: 9px 17px 9px 32px!important;
+}
+
+.wsmenu-click i, .wsmenu-click02 i {
+    margin-right: auto;
+    margin-left: 8px;
+    float: left;
 }
 
 .header .profile {

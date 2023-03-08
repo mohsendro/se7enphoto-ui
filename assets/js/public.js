@@ -1,7 +1,9 @@
 // Menu Scripts
 const toggleMenu = document.getElementById("wsnavtoggle");
+const overlApBlackBg = document.getElementsByClassName("overlapblackbg");
 const bodyOverflow = document.querySelector("body");
 toggleMenu.addEventListener("click", overflowHidden);
+overlApBlackBg[0].addEventListener("click", overflowHidden);
 
 function overflowHidden() {
     if (bodyOverflow.classList.contains("overflow")) {
