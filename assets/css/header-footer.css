@@ -305,6 +305,9 @@
 
 /* Responsive footer */
 @media (max-width: 575.98px) {
+    .animated-arrow {
+        position: relative !important;
+    }
     .footer .column {
         display: flex;
         flex-direction: column;

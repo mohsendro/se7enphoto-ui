@@ -1091,7 +1091,7 @@ html, body {
 /*--------------------------------------------------------------------------
 |  04 Tab CSS
 --------------------------------------------------------------------------*/ 
-@media only screen and (min-width:780px) and (max-width:1023px) {
+@media only screen and (min-width: 576px) and (max-width: 991.98px) {
 	
 	
 }
@@ -1100,9 +1100,7 @@ html, body {
 /*--------------------------------------------------------------------------
 |  05 Mobile CSS
 --------------------------------------------------------------------------*/ 
-
-
- @media only screen and (max-width: 780px) {
+@media only screen and (max-width: 575.98px) {
 .smllogo img {
 	height: 29px;
 }
